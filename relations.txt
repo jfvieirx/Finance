@@ -1,4 +1,4 @@
-elações entre Classes e Funções
+Relações entre Classes e Funções
 
 Client
 A classe "Client" representa um cliente do sistema.
