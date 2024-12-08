@@ -1,0 +1,25 @@
+elações entre Classes e Funções
+
+Client
+A classe "Client" representa um cliente do sistema.
+Cada cliente pode ter múltiplas contas associadas.
+Cada cliente pode ter múltiplos investimentos associados.
+
+Account
+A classe "Account" representa uma conta financeira de um cliente.
+Cada conta pode armazenar múltiplas transações.
+Os saldos das contas contribuem para o patrimônio líquido do cliente.
+
+Transaction
+A classe "Transaction" representa uma transação financeira.
+Transações estão associadas a uma única "Account".
+
+Investment
+A classe "Investment" representa um investimento do cliente.
+Cada investimento tem um valor inicial e uma taxa de retorno mensal.
+O valor atual do investimento pode ser calculado com base no tempo decorrido.
+Investimentos podem ser vendidos, e o valor resultante é transferido para uma `Account`.
+
+Relatorios
+A função "generate_report" gera um relatório financeiro completo para o cliente, incluindo contas e investimentos.
+A função "future_value_report" projeta o valor futuro dos investimentos de um cliente para uma data específica.
