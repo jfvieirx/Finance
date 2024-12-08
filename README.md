@@ -4,6 +4,8 @@ O **Finances** é um pacote Python projetado para gerenciar as finanças pessoai
 
 Com este pacote, você pode rastrear suas receitas e despesas, calcular o patrimônio líquido e analisar o crescimento dos seus investimentos ao longo do tempo.
 
+# Desenvolvido por Jefferson vieira
+
 # Funcionalidades
 
 **Transações**: Crie e gerencie transações financeiras com categoria e descrição.
